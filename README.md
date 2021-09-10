@@ -83,11 +83,12 @@ In this edition we wanna allow full CRUD on our pizza store.
 
 ### INTEGRATION
 
-  * On every Pizza change in Context: Perform a PATCH / PUT request against the API too!
-  * This way we keep the Context & the API in sync!
-  * After a change in the frontend: 
-    * Check if the change was created at the API too
-    * Either start the API and call the /pizzas route or check the database entries in Compass / ATLAS
+  * On every Pizza change in Context: 
+    * Perform a POST, PATCH / PUT, DELETE request against the API too
+    * This way we keep the Context & the API in sync!
+  * After a change of pizza data in the frontend: 
+    * Check if the change was created successfully at the API too
+    * Either open the /pizzas route directly in the browser or check the database entries in Compass / ATLAS
 
 <br /><br />
 
